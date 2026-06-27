@@ -201,6 +201,4 @@ If you have questions about how something works, the code should be clear enough
 
 - [IFEval Paper](https://arxiv.org/abs/2311.07911) (Zhou et al. 2023)
 - [Official Repo](https://github.com/google-research/google-research/tree/master/instruction_following_eval)
-- [OpenAI Python Client](https://github.com/openai/openai-python)
-- [Groq Console](https://console.groq.com)
 - [OpenRouter](https://openrouter.ai)
