@@ -23,6 +23,7 @@ ProMa infused into Instruct-Bench and seeded from the Pilot plan (docs/plans/202
 ## Progress Log
 - 2026-06-28: Project scaffolded via ProMa (manual /proma:init equivalent), seeded from Pilot plan.
 - 2026-06-28: Roadmap = 3 epics mapped to plan phases; backlog = 14 tasks from acceptance criteria; 8 ADRs carried from brainstorm.
+- 2026-06-28: Review fix — TASK-004 status open→blocked (had unmet deps). Repointed epic-level blockers to gate tasks: TASK-008/009 → TASK-007, TASK-012 → TASK-011 (so they auto-unblock on gate completion).
 
 ## Boot Log
 - 2026-06-28: ProMa initialized for "IFEval-Stack" — instruction-density × model-size scaling study of LLM instruction-following.

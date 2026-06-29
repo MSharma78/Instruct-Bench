@@ -81,7 +81,7 @@ Within a tier, pick unblocked items first.
 - **priority:** high
 - **status:** blocked
 - **epic:** EPIC-02
-- **blocked_by:** EPIC-01
+- **blocked_by:** TASK-007
 - **created:** 2026-06-28
 - **completed:** (empty)
 - **summary:** Grid loop (model × k × prompt); record failure_class {ok,empty_none,refusal,truncated,api_error}, finish_reason, usage; max_tokens=clamp(512+256*k+headroom,512,4096); temp=0; resumable cache. (see ADR-007)
@@ -91,7 +91,7 @@ Within a tier, pick unblocked items first.
 - **priority:** high
 - **status:** blocked
 - **epic:** EPIC-02
-- **blocked_by:** EPIC-01
+- **blocked_by:** TASK-007
 - **created:** 2026-06-28
 - **completed:** (empty)
 - **summary:** Emit one row per instruction (model,k,topic,instr_id,position_index,strict_pass,loose_pass,gen_failure) via evaluation_lib. Set langdetect.DetectorFactory.seed=0. Tag (not drop) failures.
@@ -121,7 +121,7 @@ Within a tier, pick unblocked items first.
 - **priority:** high
 - **status:** blocked
 - **epic:** EPIC-03
-- **blocked_by:** EPIC-02
+- **blocked_by:** TASK-011
 - **created:** 2026-06-28
 - **completed:** (empty)
 - **summary:** Per-(model,k) aggregates with Wilson CIs + clustered SE (cluster=prompt_id); fit 4-param sigmoid; estimate k* (τ=0.5) with delta-method CI; optional GLMM (bambi/pymc). Output cells.csv, capacity.csv.

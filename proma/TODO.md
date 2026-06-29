@@ -15,11 +15,11 @@ Two-queue task system: BACKLOG (agent work) + INBOX (human decisions).
 | TASK-005 | Fresh topic bank | normal | open | EPIC-01 | (none) |
 | TASK-006 | Dataset builder | high | blocked | EPIC-01 | TASK-004, TASK-005 |
 | TASK-007 | Validity gate (reference-response + k-ceiling) | high | blocked | EPIC-01 | TASK-006, IN-003 |
-| TASK-008 | Refactor generate.py (grid + failure taxonomy) | high | blocked | EPIC-02 | EPIC-01 |
-| TASK-009 | Refactor score.py (per-instruction) | high | blocked | EPIC-02 | EPIC-01 |
+| TASK-008 | Refactor generate.py (grid + failure taxonomy) | high | blocked | EPIC-02 | TASK-007 |
+| TASK-009 | Refactor score.py (per-instruction) | high | blocked | EPIC-02 | TASK-007 |
 | TASK-010 | Run pilot grid | high | blocked | EPIC-02 | TASK-008, IN-001, IN-002 |
 | TASK-011 | Native IFEval cross-check (k≤3) | normal | blocked | EPIC-02 | TASK-010, IN-003 |
-| TASK-012 | Analysis (analyze.py) | high | blocked | EPIC-03 | EPIC-02 |
+| TASK-012 | Analysis (analyze.py) | high | blocked | EPIC-03 | TASK-011 |
 | TASK-013 | Figures (figures.py) | high | blocked | EPIC-03 | TASK-012 |
 | TASK-014 | Pilot orchestrator + scale-up decision | normal | blocked | EPIC-03 | TASK-013, IN-002 |
 
